@@ -2,7 +2,6 @@ import 'package:eas/admin/add_data.dart';
 import 'package:eas/authentication/authenticate.dart';
 import 'package:eas/authentication/forgot.dart';
 import 'package:eas/authentication/signuppage.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
