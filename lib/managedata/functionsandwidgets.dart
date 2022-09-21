@@ -18,9 +18,9 @@ void sendmessage(String address, String messages) async {
 }
 
 Future<void> makecall(String number) async {
-  var url = "tel:$number";
-  await canLaunch(url)
-      ? await launch(url)
+  Uri url = Uri.parse("tel:$number");
+  await canLaunchUrl(url)
+      ? await launchUrl(url)
       : Fluttertoast.showToast(msg: "can't call now");
 }
 
